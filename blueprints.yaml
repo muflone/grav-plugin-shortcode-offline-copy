@@ -1,0 +1,30 @@
+name: Shortcode Offline Copy
+version: 0.1.0
+description: Add a link to a local copy of an asset
+icon: code
+author:
+  name: Muflone
+  email: webreg@vbsimple.net
+homepage: https://github.com/muflone/grav-plugin-shortcode-offline-copy
+demo: https://github.com/muflone/grav-plugin-shortcode-offline-copy/blob/master/README.md
+keywords: plugin, css, shortcode, offline, copy
+bugs: https://github.com/muflone/grav-plugin-shortcode-offline-copy/issues
+docs: 
+license: GPL
+
+dependencies:
+  - shortcode-core
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

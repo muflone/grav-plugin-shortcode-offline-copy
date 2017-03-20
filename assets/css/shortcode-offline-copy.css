@@ -1,0 +1,15 @@
+a.shortcode-offline-copy {
+  padding-right: 18px;
+  position: relative;
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+a.shortcode-offline-copy-pdf {
+  background-image: url(../images/type-pdf.png);
+}
+
+a.shortcode-offline-copy-zip {
+  background-image: url(../images/type-zip.png);
+}
