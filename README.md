@@ -13,7 +13,7 @@ Then, rename the folder to `shortcode-offline-copy`.
 
 You should now have all the plugin files under
 
-	/your/site/grav/user/plugins/blockquotes
+  /your/site/grav/user/plugins/shortcode-offline-copy
 
 # Usage for content authors
 
